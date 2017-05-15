@@ -45,7 +45,7 @@ dbname  数据库名称配置
 第二步创建数据库：CREATE DATABASE if not exists oneoaas_cmdb  CHARSET utf8 COLLATE utf8_general_ci;
 第三步导入数据库：mysql -h localhost -u root -p oneoaas_cmdb < community_edition.sql
 第四步启动应用： sh start.sh
-第五步访问应用： http://你配置的IP或域名:你配置的端口
+第五步访问应用： http://你配置的IP或域名:你配置的端口 默认用户oneoaas 默认密码oneoaas
 
 ```
 
